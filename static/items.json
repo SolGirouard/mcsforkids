@@ -1,0 +1,22 @@
+[
+  {
+      "name": "The Boy Who Loved Math",
+      "origin": "Deborah Heiligman and LeUyen Pham",
+      "description": "A story about Paul Erdős, the most prolific mathematician who ever lived.",
+      "imageURL": "http://ecx.images-amazon.com/images/I/51rHShWODkL.jpg",
+      "buyURL": "http://www.amazon.com/The-Boy-Who-Loved-Math/dp/1596433078",
+      "price": 9.94,
+      "minAge": 4,
+      "maxAge": 8
+  },
+  {
+      "name": "DragonBox 5+",
+      "origin": "WeWantToKnow",
+      "description": "A game that teaches algebra as a set of puzzles.",
+      "imageURL": "http://www.dragonboxapp.com/img/DragonBoxAlgebra5+_small.jpg",
+      "buyURL": "http://www.dragonboxapp.com/",
+      "price": 5.00,
+      "minAge": 5,
+      "maxAge": 15
+  }
+]
