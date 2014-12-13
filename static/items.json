@@ -5,7 +5,7 @@
       "description": "A story about Paul Erdős, the most prolific mathematician who ever lived.",
       "imageURL": "http://ecx.images-amazon.com/images/I/51rHShWODkL.jpg",
       "buyURL": "http://www.amazon.com/The-Boy-Who-Loved-Math/dp/1596433078",
-      "price": 9.94,
+      "price": 10.00,
       "minAge": 4,
       "maxAge": 8
   },
@@ -18,5 +18,95 @@
       "price": 5.00,
       "minAge": 5,
       "maxAge": 15
+  },
+  {
+      "name": "Hello Ruby",
+      "origin": "Linda Liukas",
+      "description": "A story book about programming for girls, with associated apps.",
+      "imageURL": "http://www.helloruby.com/assets/logo-static-b7766b45f60e36ad21bacaade250fc5d.svg",
+      "buyURL": "http://www.helloruby.com/",
+      "price": 15.00,
+      "minAge": 5,
+      "maxAge": 8
+  },
+  {
+      "name": "The Counting Kingdom",
+      "origin": "Little Worlds Interactive",
+      "description": "A game that teaches basic arithmetic as a tower defense game.",
+      "imageURL": "http://static.squarespace.com/static/52027e30e4b0b8aff996fbd0/5313660be4b000ec7f82c4c2/5447cc7be4b0f08833415d00/1413991576794/Forest_2048.png?format=500w",
+      "buyURL": "http://littleworldsinteractive.com/",
+      "price": 10.00,
+      "minAge": 5,
+      "maxAge": 8
+  },
+  {
+      "name": "Graph Coloring for Seven-Year-Olds",
+      "origin": "Joel David Hamkins",
+      "description": "A free, printable workbook teaching basic graph theory.",
+      "imageURL": "http://jdh.hamkins.org/files/2014/05/Image-11-214x300.jpg",
+      "buyURL": "http://jdh.hamkins.org/math-for-seven-year-olds-graph-coloring-chromatic-numbers-eulerian-paths/",
+      "price": 0.00,
+      "minAge": 6,
+      "maxAge": 8
+  },
+  {
+      "name": "CodeCombat",
+      "origin": "CodeCombat",
+      "description": "An online dungeon-crawler game that teaches Javascript.",
+      "imageURL": "",
+      "buyURL": "https://codecombat.com/",
+      "price": 0.00,
+      "minAge": 10,
+      "maxAge": 15
+  },
+  {
+      "name": "MathBreakers",
+      "origin": "Imaginary NUmber Co.",
+      "description": "An online adventure game that teaches number sense and arithmetic.",
+      "imageURL": "https://www.mathbreakers.com/static/img/feature1.png",
+      "buyURL": "https://www.mathbreakers.com/",
+      "price": 0.00,
+      "minAge": 6,
+      "maxAge": 10
+  },
+  {
+      "name": "Made w/ Code",
+      "origin": "Google",
+      "description": "A collection of introductory projects and inspirational videos aimed at girls who want to try programming.",
+      "imageURL": "https://www.madewithcode.com/events/0724E7F1E4427E55032B68EB7E8E3D64.cache.jpg",
+      "buyURL": "https://www.madewithcode.com/",
+      "price": 0.00,
+      "minAge": 5,
+      "maxAge": 15
+  },
+  {
+      "name": "Wuzzit Trouble",
+      "origin": "BrainQuake",
+      "description": "A puzzle-solving game that develops algebraic thinking skills.",
+      "imageURL": "http://innertubegames.net/img/shot_02.png",
+      "buyURL": "http://innertubegames.net/index.html",
+      "price": 0.00,
+      "minAge": 5,
+      "maxAge": 10
+  },
+  {
+      "name": "Code.org",
+      "origin": "Code.org",
+      "description": "A set of 20-hour-long exercises introducing students to programming using Scratch.",
+      "imageURL": "http://learn.code.org/assets/codeorg-studio-logo-ab9fbef5744e7d26dd423357f7c93a8a.png",
+      "buyURL": "http://learn.code.org/",
+      "price": 0.00,
+      "minAge": 5,
+      "maxAge": 15
+  },
+  {
+      "name": "Hard Math for Elementary School",
+      "origin": "Glenn Ellison",
+      "description": "",
+      "imageURL": "http://ecx.images-amazon.com/images/I/413mUNwMiRL.jpg",
+      "buyURL": "http://www.amazon.com/Hard-Elementary-School-Glenn-Ellison/dp/1489507175",
+      "price": 25.00,
+      "minAge": 8,
+      "maxAge": 10
   }
 ]
