@@ -100,6 +100,16 @@
       "maxAge": 15
   },
   {
+      "name": "Measurement",
+      "origin": "Paul Lockhart",
+      "description": "A realization of the ideal mathemaics textbook for early high school, by Paul Lockhart.",
+      "imageURL": "http://ecx.images-amazon.com/images/I/6120TnbsnnL.jpg",
+      "buyURL": "http://www.amazon.com/Measurement-Paul-Lockhart/dp/0674284380",
+      "price": 13.00,
+      "minAge": 10,
+      "maxAge": 15
+  },
+  {
       "name": "Hard Math for Elementary School",
       "origin": "Glenn Ellison",
       "description": "",
