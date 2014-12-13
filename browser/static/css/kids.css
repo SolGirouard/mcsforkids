@@ -52,6 +52,11 @@ body, h1, h2, h3, h4, h5, h6, p, div, table, tr, th, td {
    font-weight: bold;
 }
 
+.ages {
+   width: 65px;
+   text-align: center;
+}
+
 .section-body td {
    vertical-align: top;
    padding-bottom: 10px;
