@@ -1,0 +1,67 @@
+<!doctype html>
+{% load staticfiles %}
+{% load currency %}
+
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="description" content="Cool stuff for my future kids">
+   <title>Cool stuff for my future kids</title>
+   <link rel="stylesheet" href="{% static "css/kids.css" %}">
+   <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div id="body">
+   <div id="main">
+      <div class="header">
+         <h1><a href="/">Cool stuff for my future kids</a></h1> 
+
+         <p>I'm a mathematician and a programmer, and I see the struggles people have
+         with programming and mathematics. They can be extremely dry and boring until
+         you reach critical mass, which makes them hard to learn, but once you do
+         they're invaluable tools. I often see educatoinal resources floating around the
+         internet, books, stories, games, projects and whatnot, that make me think, "Man
+         my future kids will probably love this once I have some." Since there's a ton
+         of content, some of which spans an hour or a day or a year's worth of
+         engagement, I want to organize it so I can come back to it in the future. I
+         figure someone else may find the list interesting as well.</p> 
+
+      </div>
+
+      <div class="sections">
+
+         <!--
+         <div class="section">
+            <h3 class="section-title">Ages 4-6</h3>
+            <table class="section-body">
+               <tr class="item">
+                  <td><img src="img/boy-who-loved-math.png" height=100></td>
+                  <td><a href="http://www.amazon.com/The-Boy-Who-Loved-Math/dp/1596433078"><em>The Boy Who Loved Math</em></a>, a story about Paul Erd&#337;s, the most prolific mathematician who ever lived.</td>
+                  <td>Price: $10</td>
+               </tr> 
+            </table>
+         </div>
+         -->
+
+         <table class="section-body">
+            <tr>
+               <th></th>
+               <th>Thing</th>
+               <th>Price</th>
+            </tr>
+            {% for item in items %}
+            <tr class="item">
+               <td><img src="{{ item.imageURL }}" height=100 style="float: right"></td>
+               <td><div><a href="{{ item.buyURL }}">{{ item.name }}</a></div>{{ item.description }}</td>
+               <td>{{ item.price | currency }}</td>
+            </tr>
+            {% endfor %}
+         </table>
+         
+      </div>
+   </div>
+</div>
+</body>
+</html>
+
