@@ -110,6 +110,16 @@
       "maxAge": 15
   },
   {
+      "name": "Beast Academy",
+      "origin": "Art of Problem Solving",
+      "description": "An elementary school curriculum for mathematics, presented as a set of comic books with exercises.",
+      "imageURL": "http://www.artofproblemsolving.com/Store/products/beast3aGuide//pic.jpg",
+      "buyURL": "http://www.artofproblemsolving.com/Store/beastacademy.php",
+      "price": 27.00,
+      "minAge": 7,
+      "maxAge": 10
+  },
+  {
       "name": "Hard Math for Elementary School",
       "origin": "Glenn Ellison",
       "description": "",
