@@ -1,5 +1,15 @@
 [
   {
+      "name": "Primo",
+      "origin": "Math for Love",
+      "description": "A board game teaching multiplication, division, factoring, etc.",
+      "imageURL": "http://mathforlove.com/wp-content/uploads/2014/05/Screen-shot-of-Primo-Board-300x261.png",
+      "buyURL": "https://www.kickstarter.com/projects/343941773/primo-the-beautiful-colorful-mathematical-board-ga",
+      "price": 35.00,
+      "minAge": 8,
+      "maxAge": 15
+  },
+  {
       "name": "The Boy Who Loved Math",
       "origin": "Deborah Heiligman and LeUyen Pham",
       "description": "A story about Paul Erdős, the most prolific mathematician who ever lived.",
